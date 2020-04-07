@@ -24,7 +24,7 @@ Syntax highlighted code block
 [Click Here for INDEX2.HTML](index2.html)
 [Link](url) and ![Image](src)
 ```
-[Click Here for INDEX2.HTML](index2.html)
+[Click Here for INDEX2.HTML](https://inf1339.github.io/infoJigs/index2.html)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
