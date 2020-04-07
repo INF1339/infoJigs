@@ -24,6 +24,7 @@ Syntax highlighted code block
 [Click Here for INDEX2.HTML](index2.html)
 [Link](url) and ![Image](src)
 ```
+[Click Here for INDEX2.HTML](index2.html)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
