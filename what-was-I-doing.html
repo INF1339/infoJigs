@@ -6,7 +6,7 @@
             .green {color: green;}
         </style>
 
-        <script  type="text/javascript" src="stack.js"></script>
+        <script  type="text/javascript" src="classes/stackClass.js"></script>
             <script>
                 var s = new Stack;
           
@@ -24,7 +24,7 @@
                 let x = s.contentsArray()
                 let y = ""
                 for (i=0; i<x.length; i++) {
-                    y = y + '<img src="' + x[i] + '.png"><br />'
+                    y = y + '<img src="images/' + x[i] + '.png"><br />'
                 }
                 document.getElementById("stack").innerHTML = y
             }
