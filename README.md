@@ -21,7 +21,7 @@ Syntax highlighted code block
 2. List
 
 **Bold** and _Italic_ and `Code` text
-[Click Here for INDEX.HTML](index.html)
+[Click Here for INDEX2.HTML](index2.html)
 [Link](url) and ![Image](src)
 ```
 
