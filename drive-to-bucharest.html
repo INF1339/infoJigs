@@ -1,0 +1,63 @@
+<html>
+    <head>
+    <title>Information Jigs Examples</title>
+        <style>
+            .breadcrumbs {color: green; font-size: 0.75em;}
+            .green {color: green;}
+        </style>
+
+        <script  type="text/javascript" src="stack.js"></script>
+            <script>
+                var s = new Stack;
+          
+            
+            function push (what) {
+                let x = document.getElementById("item").value
+                s.push(what)
+                displayStack ()
+            }
+            function displayStack () {
+                document.getElementById("stack").innerHTML = s.contents()
+            }
+            function displayStackImages () {
+                document.getElementById("stack").innerHTML = "XXX"
+                let x = s.contentsArray()
+                let y = ""
+                for (i=0; i<x.length; i++) {
+                    y = y + '<img src="' + x[i] + '.png"><br />'
+                }
+                document.getElementById("stack").innerHTML = y
+            }
+            function pop () {
+                let x = s.pop()
+                console.log('Popped ' + x)
+                document.getElementById("output").innerHTML = x + "<br \>" + document.getElementById("output").innerHTML
+                displayStack ()
+                            }
+                
+        </script>
+    </head>
+    <body>
+        <span class="breadbrumbs"><a href="index.html">back</a></span>
+        <hr>
+        <h1>Information Jigs : Driving to Bucharest (from Arad)</h1>
+        <img src="map-of-romania.png">
+        <hr>
+        <button type="button" onclick="displayStack()">showStack</button>
+        <button type="button" onclick="displayStackImages()">showStack in pictures</button>
+        <hr>
+        <button type="button" onclick="push('Zerind')">Zerind</button> 
+        <button type="button" onclick="push('Timisoara')">Timisoara</button> 
+        <button type="button" onclick="push('Oradea')">Oradea</button> 
+        <button type="button" onclick="push('Sibiu')">Sibiu</button> 
+        <button type="button" onclick="push('Fagaras')">Fagaras</button> 
+        
+        
+        
+        <button type="button" onclick="pop()">BACKTRACK</button>
+         <input type="text" id="item">
+          <div id="output"></div>
+        <hr>
+        <div id="stack"></div>
+    </body>
+</html> 
