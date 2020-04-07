@@ -6,7 +6,7 @@
             .green {color: green;}
         </style>
 
-        <script  type="text/javascript" src="stack.js"></script>
+        <script  type="text/javascript" src="classes/stackClass.js"></script>
             <script>
                 var s = new Stack;
           
@@ -24,7 +24,7 @@
                 let x = s.contentsArray()
                 let y = ""
                 for (i=0; i<x.length; i++) {
-                    y = y + '<img src="' + x[i] + '.png"><br />'
+                    y = y + '<img src="images/' + x[i] + '.png"><br />'
                 }
                 document.getElementById("stack").innerHTML = y
             }
@@ -41,7 +41,7 @@
         <span class="breadbrumbs"><a href="index.html">back</a></span>
         <hr>
         <h1>Information Jigs : Driving to Bucharest (from Arad)</h1>
-        <img src="map-of-romania.png">
+        <img src="images/map-of-romania.png">
         <hr>
         <button type="button" onclick="displayStack()">showStack</button>
         <button type="button" onclick="displayStackImages()">showStack in pictures</button>
