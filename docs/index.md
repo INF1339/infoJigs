@@ -1,4 +1,4 @@
-## Welcome to INFOJIGS
+## Welcome to INFOJIGS (docs/index.md)
 
 You can use the [editor on GitHub](https://github.com/INF1339/infoJigs/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
